@@ -2,7 +2,6 @@
 Generic container to do a mongobackup and upload to s3
 
 Environment variables that need to be set:
--BACKUPNAME
 -HOST
 -PORT
 -DBNAME
