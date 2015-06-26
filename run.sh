@@ -1,4 +1,4 @@
-BACKUPNAME="mongodump-$HOST-$(date +%Y-%m-%d-%H-%M)"
+BACKUPNAME="mongodump-$HOST-$PORT-$(date +%Y-%m-%d-%H-%M)"
 BACKUPDIR=/tmp/$BACKUPNAME
 BACKUPFILE=/tmp/$BACKUPNAME.tar.gz
 
