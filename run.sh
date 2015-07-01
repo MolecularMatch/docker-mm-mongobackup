@@ -7,3 +7,4 @@ tar -cvzf $BACKUPFILE $BACKUPDIR
 aws s3 cp $BACKUPFILE s3://mms3backupbucket/mongodb/
 
 rm $BACKUPFILE
+rm -R $BACKUPDIR
